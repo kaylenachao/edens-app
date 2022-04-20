@@ -1,0 +1,163 @@
+.screen{
+    position: absolute;
+    background-color: #252b37;
+    width:375px;
+    height:680px;
+    top: 150px;
+    left:750px;
+    border-radius: 50px;
+}
+
+.title{
+    font-family: Helvetica;
+    padding:25px;
+    text-align: center;
+    font-size: 30px;
+    color: #f5fcff;
+}
+
+.activity_log{
+    margin-top: 20px;
+}
+
+a.button1{
+    background-image:url(./images/home.jpeg);
+    background-size: cover; 
+    background-position: center;
+    display: inline-block;
+    border: none;
+    margin-left: 17px;
+    padding: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: helvetica;
+    font-size: 25px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+
+}
+
+.button1:hover{
+    color:#000000;
+    background-color:aqua;
+}
+
+a.button2{
+    background-image:url(./images/airbnb.jpeg);
+    background-size: cover; 
+    background-position: center;
+    display: inline-block;
+    border: none;
+    margin-left: 17px;
+    padding: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: helvetica;
+    font-size: 25px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+
+}
+
+.button2:hover{
+    color:#000000;
+    background-color:aqua;
+}
+
+a.button3{
+    background-image:url(./images/airbnb2.jpeg);
+    background-size: cover; 
+    background-position: center;
+    display: inline-block;
+    border: none;
+    margin-top: 9px;
+    margin-left: 17px;
+    padding: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: helvetica;
+    font-size: 25px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+
+}
+
+.button3:hover{
+    color:#000000;
+    background-color:aqua;
+}
+
+a.button4{
+    background-image:url(./images/shed.jpeg);
+    background-size: cover; 
+    background-position: center;
+    display: inline-block;
+    border: none;
+    margin-top: 9px;
+    margin-left: 17px;
+    padding: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: helvetica;
+    font-size: 25px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+
+}
+
+.button4:hover{
+    color:#000000;
+}
+
+.navbar{
+    position: relative;
+    margin-top: 165px;
+    width:100%;
+    height: 80px;
+    background-color: #373f50;
+    opacity: 60%;
+    display: flex;
+    border-radius: 60px 60px 90px 90px;
+
+}
+
+.nav__link{
+    text-decoration: none;
+    display:flex;
+    margin-left: 55px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 13px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+.nav__icon{
+    font-size: 31px;
+    color: #6cc9c7;
+}
